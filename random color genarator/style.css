@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btnC {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-inline: 10px;
+  padding: 10px;
+}
+.btn {
+  border: none;
+  color: gray;
+  width: 100%;
+  font-family: cursive;
+  text-shadow: 2px 2px 2px black;
+}
+.btn:hover {
+  background-color: gray;
+  color: white;
+}
+.color-container {
+  width: 300px;
+  height: 150px;
+  color: white;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border: solid black 2px;
+  border-radius: 5px;
+  text-shadow: 2px 2px 2px black;
+}
